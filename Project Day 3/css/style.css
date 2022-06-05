@@ -56,3 +56,64 @@ span {
   margin: 20px 10px;
   border-radius: 10px;
 }
+
+.navbare {
+  display: flex;
+  width: 100vw;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 30vw;
+}
+
+.listitem {
+  display: inline-block;
+  cursor: pointer;
+  padding: 2% 3%;
+}
+
+.listitem a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.listitem:hover {
+  background-color: turquoise;
+}
+
+.listitem:hover a {
+  color: #fff;
+}
+
+#profile-link-section {
+  width: 100vw;
+  height: 60vh;
+  background-color: blueviolet;
+  text-align: center;
+  padding: 5%;
+}
+
+#profile-link-section h2 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+
+#profile-link-section a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.profile-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  flex-direction: column;
+}
