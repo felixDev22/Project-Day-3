@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+#welcome-section {
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+      45deg,
+      rgba(64, 127, 186, 0.9),
+      rgba(137, 7, 157, 0.9)
+    ),
+    url(images/dev.jpg);
+  background-position: right;
+  background-size: cover;
+}
+.displaytry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.text-white {
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.displaytry h3 {
+  color: #fff;
+}
+span {
+  color: rgb(222, 13, 117);
+}
+#projects {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(75, 4, 70);
+}
+#projects h1 {
+  color: #fff;
+  text-align: center;
+  padding: 80px;
+  font-weight: 600;
+}
+.row {
+  height: 400px;
+}
+.col-4 {
+  background-color: rgb(218, 65, 208);
+  color: #fff;
+  margin: 20px 10px;
+  border-radius: 10px;
+}
